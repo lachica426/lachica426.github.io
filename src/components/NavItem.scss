@@ -1,0 +1,9 @@
+$root-class: 'nav-item';
+
+.#{$root-class} {
+  margin: 40px;
+
+  &:active {
+    font-weight: bolder;
+  }
+}
