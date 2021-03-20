@@ -9,7 +9,7 @@ class Navitem extends Component {
     
         return (
                 <li className={rootClass}>
-                    <Link to={this.props.tolink} >
+                    <Link to={this.props.tolink} className={`${rootClass}__link`} >
                         {this.props.item}
                     </Link>
                 </li>

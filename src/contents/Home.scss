@@ -1,0 +1,20 @@
+$root-class: 'home';
+
+.#{$root-class} {
+  padding: 30px 0 0 0;
+  background-color: #f4f5f9;
+  flex: var(--condiv-flex);
+  background: #fff;
+  text-align: center;
+  display: block;
+
+  &__profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+}
+
+// .condiv home {
+//   background-color: hotpink;
+// }
